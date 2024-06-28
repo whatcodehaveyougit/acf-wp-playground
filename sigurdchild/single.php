@@ -36,6 +36,10 @@ get_header(); ?>
         <p><?php echo(get_field('event_date'));?></p>
         <p><?php echo(get_field('event_description')); ?></p>
 
+        <h3>Reg Details</h3>
+        <p><?php echo(get_field('name'));?></p>
+        <p><?php echo(get_field('age'));?></p>
+        <p><?php echo(get_field('gender')); ?></p>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
