@@ -1,11 +1,11 @@
 {
-    "key": "group_667e7df5dd1ca",
-    "title": "Form",
+    "key": "group_667e87db7c773",
+    "title": "Event fields",
     "fields": [
         {
-            "key": "field_667e7df67402e",
-            "label": "Name",
-            "name": "name",
+            "key": "field_667e87dca9da5",
+            "label": "Event Name",
+            "name": "event_name",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -23,9 +23,9 @@
             "append": ""
         },
         {
-            "key": "field_667e7dfe7402f",
-            "label": "Age",
-            "name": "age",
+            "key": "field_667e87e8a9da6",
+            "label": "Event Date",
+            "name": "event_date",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -43,9 +43,9 @@
             "append": ""
         },
         {
-            "key": "field_667e7e0e74030",
-            "label": "Gender",
-            "name": "gender",
+            "key": "field_667e87f2a9da7",
+            "label": "Event Description",
+            "name": "event_description",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -68,7 +68,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "registration"
+                "value": "event"
             }
         ]
     ],
@@ -81,5 +81,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1719570540
+    "modified": 1719569509
 }
